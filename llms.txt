@@ -16,6 +16,8 @@
   - docs: https://docs.cloud.google.com/text-to-speech/docs
 - [Hume AI (Octave)](https://www.hume.ai): LLM-trained TTS that understands context and emotion. Octave 2 supports 11+ languages. Also includes EVI for voice agents.
   - docs: https://dev.hume.ai/docs/text-to-speech-tts/overview
+- [Inworld TTS](https://inworld.ai/tts-api): Commercial TTS API ranked
+  - docs: https://docs.inworld.ai/tts/tts
 - [LMNT](https://www.lmnt.com): Ultra-low latency TTS. Voice cloning with 5 seconds of audio.
   - docs: https://docs.lmnt.com
 - [Microsoft Azure Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech): HD voices GA since March 2025. SSML for fine-grained control. Also includes STT and speaker recognition.
@@ -62,6 +64,8 @@
   - docs: https://rhasspy.github.io/piper-samples/
 - [Coqui TTS / XTTS-v2](https://github.com/idiap/coqui-ai-TTS): 17 languages, <200ms streaming latency, zero-shot voice cloning. Company closed Dec 2023; IDIAP maintains the fork.
   - docs: https://huggingface.co/coqui/XTTS-v2
+- [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS): Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages.
+  - docs: https://huggingface.co/collections/Qwen/qwen3-tts
 
 ## Open Source Music and Audio Models
 
@@ -75,6 +79,7 @@
   - docs: https://huggingface.co/stabilityai/stable-audio-open-1.0
 - [Mustango](https://github.com/AMAAI-Lab/mustango): Text-to-music with controllable chords, beats, tempo, and key. LDM + Flan-T5.
   - docs: https://amaai-lab.github.io/mustango/
+- [Amphion](https://github.com/open-mmlab/Amphion): OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
 
 ## Audio Processing
 
@@ -85,6 +90,7 @@
 - [Torchaudio](https://github.com/pytorch/audio): PyTorch's official audio library. I/O, feature extraction, transforms, pretrained models.
   - docs: https://pytorch.org/audio/
 - [soundfile](https://github.com/bastibe/python-soundfile): Reads and writes WAV, FLAC, OGG via libsndfile. Pairs with NumPy/librosa.
+- [ClearerVoice-Studio](https://github.com/modelscope/ClearerVoice-Studio): ModelScope toolkit for speech enhancement, separation, super-resolution, and target speaker extraction. Includes SpeechScore quality metrics (PESQ, STOI, DNSMOS).
 - [FFmpeg](https://ffmpeg.org): Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines.
 
 ## Voice Agent Frameworks
@@ -133,4 +139,5 @@
 - [B2 Whisper Transcriber](https://github.com/backblaze-b2-samples/b2-whisper-transformersjs-transcriber): Audio transcription app using Whisper and Transformers.js with Backblaze B2 cloud storage.
   - b2 integration: https://github.com/backblaze-b2-samples/b2-whisper-transformersjs-transcriber
 - [ACE-Step Demo](https://ace-step.github.io/): Official music generation samples and comparisons.
+- [HuggingFace Speech-to-Speech](https://github.com/huggingface/speech-to-speech): Cascaded VAD → STT → LLM → TTS pipeline for local voice agents. Supports Whisper, MeloTTS, and Hugging Face LLMs via server/client or WebSocket.
 - [LiveKit Agent Examples](https://github.com/livekit-examples): Official examples for building voice/video AI agents.

@@ -2,7 +2,7 @@
 
 A curated list of AI audio generation APIs, SDKs, and production-ready tools — covering text-to-speech, music generation, and sound design. Focused on services developers can integrate today.
 
-Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+Maintained by [Backblaze](https://www.backblaze.com).
 
 ### Related Lists
 
@@ -38,6 +38,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[ElevenLabs](https://elevenlabs.io)** – Industry-leading TTS with voice cloning, multilingual support, and streaming. Flagship eleven_v3 model. [Docs](https://elevenlabs.io/docs/overview/intro) | SDK: [Python](https://github.com/elevenlabs/elevenlabs-python), JavaScript, Flutter, Swift, Kotlin
 - **[Google Cloud TTS](https://cloud.google.com/text-to-speech)** – 380+ voices across 75+ languages. Chirp 3 HD voices available. [Docs](https://docs.cloud.google.com/text-to-speech/docs) | SDK: Python, Java, Node, Go, Ruby, PHP, C#
 - **[Hume AI (Octave)](https://www.hume.ai)** – LLM-trained TTS that understands context and emotion. Octave 2 supports 11+ languages. Also includes EVI for voice agents. [Docs](https://dev.hume.ai/docs/text-to-speech-tts/overview) | SDK: Python, TypeScript, .NET
+- **[Inworld TTS](https://inworld.ai/tts-api)** – Commercial TTS API ranked. [Docs](https://docs.inworld.ai/tts/tts)
 - **[LMNT](https://www.lmnt.com)** – Ultra-low latency TTS. Voice cloning with 5 seconds of audio. [Docs](https://docs.lmnt.com) | SDK: [Python](https://github.com/lmnt-com/lmnt-python), [Node](https://github.com/lmnt-com/lmnt-node)
 - **[Microsoft Azure Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech)** – HD voices GA since March 2025. SSML for fine-grained control. Also includes STT and speaker recognition. [Docs](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/) | SDK: C#, C++, Python, Java, JavaScript, Go, Swift
 - **[Murf AI](https://murf.ai)** – 150+ voices, 35+ languages, 20 speaking styles. Murf Falcon for low-latency voice agents. [Docs](https://murf.ai/api/docs) | SDK: [Python](https://github.com/murf-ai/murf-python-sdk)
@@ -71,6 +72,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[StyleTTS2](https://github.com/yl4579/StyleTTS2)** – Style diffusion + adversarial training. Achieves human-level MOS on LJSpeech. Architecture basis for Kokoro. [Docs](https://huggingface.co/yl4579/StyleTTS2-LJSpeech)
 - **[Piper TTS](https://github.com/OHF-Voice/piper1-gpl)** – Fast local TTS that runs on CPU. ~60MB ONNX-based, designed for edge/IoT. Original repo archived; active at OHF-Voice. [Docs](https://rhasspy.github.io/piper-samples/)
 - **[Coqui TTS / XTTS-v2](https://github.com/idiap/coqui-ai-TTS)** – 17 languages, <200ms streaming latency, zero-shot voice cloning. Company closed Dec 2023; IDIAP maintains the fork. [Docs](https://huggingface.co/coqui/XTTS-v2) | SDK: Python (pip install coqui-tts)
+- **[Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)** – Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages. [Docs](https://huggingface.co/collections/Qwen/qwen3-tts) | SDK: Python (pip install qwen-tts)
 
 ## Open Source Music and Audio Models
 
@@ -81,6 +83,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Riffusion](https://github.com/riffusion/riffusion-hobby)** – Fine-tuned Stable Diffusion generating spectrograms from text, converted to audio. Flask server + Streamlit app included. [Docs](https://huggingface.co/riffusion/riffusion-model-v1)
 - **[Stable Audio Open](https://github.com/Stability-AI/stable-audio-tools)** – Open-weight music and sound generation up to 47s (44.1kHz stereo). [Docs](https://huggingface.co/stabilityai/stable-audio-open-1.0)
 - **[Mustango](https://github.com/AMAAI-Lab/mustango)** – Text-to-music with controllable chords, beats, tempo, and key. LDM + Flan-T5. [Docs](https://amaai-lab.github.io/mustango/)
+- **[Amphion](https://github.com/open-mmlab/Amphion)** – OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
 
 ## Audio Processing
 
@@ -91,6 +94,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Pedalboard (Spotify)](https://github.com/spotify/pedalboard)** – Python library wrapping JUCE for audio effects, VST/AU plugin loading, audio I/O. SDK: Python (pip install pedalboard)
 - **[Torchaudio](https://github.com/pytorch/audio)** – PyTorch's official audio library. I/O, feature extraction, transforms, pretrained models. [Docs](https://pytorch.org/audio/) | SDK: Python (pip install torchaudio)
 - **[soundfile](https://github.com/bastibe/python-soundfile)** – Reads and writes WAV, FLAC, OGG via libsndfile. Pairs with NumPy/librosa. SDK: Python (pip install soundfile)
+- **[ClearerVoice-Studio](https://github.com/modelscope/ClearerVoice-Studio)** – ModelScope toolkit for speech enhancement, separation, super-resolution, and target speaker extraction. Includes SpeechScore quality metrics (PESQ, STOI, DNSMOS). SDK: Python (pip install clearvoice)
 - **[FFmpeg](https://ffmpeg.org)** – Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines. SDK: [Python (ffmpeg-python)](https://github.com/kkroening/ffmpeg-python), Node (fluent-ffmpeg)
 
 ## Voice Agent Frameworks
@@ -137,6 +141,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Stable Audio Open Demo](https://github.com/Stability-AI/stable-audio-open-demo)** – Official Stability AI demo notebook for Stable Audio Open 1.0.
 - **[B2 Whisper Transcriber](https://github.com/backblaze-b2-samples/b2-whisper-transformersjs-transcriber)** – Audio transcription app using Whisper and Transformers.js with Backblaze B2 cloud storage. [B2 integration](https://github.com/backblaze-b2-samples/b2-whisper-transformersjs-transcriber)
 - **[ACE-Step Demo](https://ace-step.github.io/)** – Official music generation samples and comparisons.
+- **[HuggingFace Speech-to-Speech](https://github.com/huggingface/speech-to-speech)** – Cascaded VAD → STT → LLM → TTS pipeline for local voice agents. Supports Whisper, MeloTTS, and Hugging Face LLMs via server/client or WebSocket.
 - **[LiveKit Agent Examples](https://github.com/livekit-examples)** – Official examples for building voice/video AI agents.
 
 ---
@@ -151,4 +156,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.

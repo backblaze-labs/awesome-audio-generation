@@ -631,3 +631,61 @@
   category: templates-and-example-projects
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: HuggingFace Speech-to-Speech
+  url: https://github.com/huggingface/speech-to-speech
+  description: Cascaded VAD → STT → LLM → TTS pipeline for local voice agents. Supports Whisper, MeloTTS, and Hugging Face LLMs via server/client or WebSocket.
+  category: templates-and-example-projects
+  github: huggingface/speech-to-speech
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Text-to-Speech APIs (new entries) ----------------
+
+- name: Inworld TTS
+  url: https://inworld.ai/tts-api
+  docs_url: https://docs.inworld.ai/tts/tts
+  description: Commercial TTS API ranked #1 on Artificial Analysis TTS Arena. TTS-1.5 Mini (<130ms P90) and Max (~200ms). Voice cloning from 5-15s of audio. 15 languages.
+  category: text-to-speech-apis
+  github: inworld-ai/tts
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Open Source TTS Models (new entries) ----------------
+
+- name: Qwen3-TTS
+  url: https://github.com/QwenLM/Qwen3-TTS
+  docs_url: https://huggingface.co/collections/Qwen/qwen3-tts
+  description: Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages.
+  category: open-source-tts-models
+  github: QwenLM/Qwen3-TTS
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install qwen-tts)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Open Source Music and Audio Models (new entries) ----------------
+
+- name: Amphion
+  url: https://github.com/open-mmlab/Amphion
+  description: OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
+  category: open-source-music-and-audio-models
+  github: open-mmlab/Amphion
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Audio Processing (new entries) ----------------
+
+- name: ClearerVoice-Studio
+  url: https://github.com/modelscope/ClearerVoice-Studio
+  description: ModelScope toolkit for speech enhancement, separation, super-resolution, and target speaker extraction. Includes SpeechScore quality metrics (PESQ, STOI, DNSMOS).
+  category: audio-processing
+  github: modelscope/ClearerVoice-Studio
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install clearvoice)}
+  b2_integration: ""
+  last_verified: 2026-04-18

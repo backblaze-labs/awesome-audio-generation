@@ -689,3 +689,57 @@
     - {language: Python (pip install clearvoice)}
   b2_integration: ""
   last_verified: 2026-04-18
+
+# ---------------- Open Source TTS Models (expansion 2026-04-18) ----------------
+
+- name: CosyVoice (FunAudioLLM)
+  url: https://github.com/FunAudioLLM/CosyVoice
+  docs_url: https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B
+  description: Alibaba/FunAudioLLM multilingual TTS. CosyVoice2 streaming at 150ms latency; CosyVoice3 (Dec 2025) adds RL-tuned voice quality. 9+ languages, zero-shot cloning.
+  category: open-source-tts-models
+  github: FunAudioLLM/CosyVoice
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install -r requirements.txt)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Voxtral TTS (Mistral)
+  url: https://huggingface.co/mistralai/Voxtral-4B-TTS-2603
+  docs_url: https://docs.mistral.ai/capabilities/audio/text_to_speech
+  description: 4B open-weight TTS from Mistral. 9 languages, 20 preset voices, 24 kHz output. Deployable via vLLM-Omni; also available as hosted API at console.mistral.ai.
+  category: open-source-tts-models
+  license: CC-BY-NC-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: IndexTTS
+  url: https://github.com/index-tts/index-tts
+  docs_url: https://index-tts.github.io/
+  description: Zero-shot TTS with duration control and emotion-timbre disentanglement. IndexTTS-2 adds multilingual support (Chinese, English, Japanese, Spanish). Bilibili model license.
+  category: open-source-tts-models
+  github: index-tts/index-tts
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-04-18) ----------------
+
+- name: ACE-Step 1.5
+  url: https://github.com/ace-step/ACE-Step-1.5
+  description: Music generation model combining LM planning + Diffusion Transformer synthesis. Full songs in <2s on A100, <10s on RTX 3090. XL variant (4B DiT) released April 2026.
+  category: open-source-music-and-audio-models
+  github: ace-step/ACE-Step-1.5
+  license: MIT
+  sdks:
+    - {language: Python (pip install acestep)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: SongGeneration (Tencent / LeVo)
+  url: https://github.com/tencent-ailab/SongGeneration
+  docs_url: https://huggingface.co/tencent/LeVo-v2-large
+  description: 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license.
+  category: open-source-music-and-audio-models
+  github: tencent-ailab/SongGeneration
+  b2_integration: ""
+  last_verified: 2026-04-18

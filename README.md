@@ -72,7 +72,10 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[StyleTTS2](https://github.com/yl4579/StyleTTS2)** – Style diffusion + adversarial training. Achieves human-level MOS on LJSpeech. Architecture basis for Kokoro. [Docs](https://huggingface.co/yl4579/StyleTTS2-LJSpeech)
 - **[Piper TTS](https://github.com/OHF-Voice/piper1-gpl)** – Fast local TTS that runs on CPU. ~60MB ONNX-based, designed for edge/IoT. Original repo archived; active at OHF-Voice. [Docs](https://rhasspy.github.io/piper-samples/)
 - **[Coqui TTS / XTTS-v2](https://github.com/idiap/coqui-ai-TTS)** – 17 languages, <200ms streaming latency, zero-shot voice cloning. Company closed Dec 2023; IDIAP maintains the fork. [Docs](https://huggingface.co/coqui/XTTS-v2) | SDK: Python (pip install coqui-tts)
+- **[CosyVoice (FunAudioLLM)](https://github.com/FunAudioLLM/CosyVoice)** – Alibaba/FunAudioLLM multilingual TTS. CosyVoice2 streaming at 150ms latency; CosyVoice3 (Dec 2025) adds RL-tuned voice quality. 9+ languages, zero-shot cloning. [Docs](https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B) | SDK: Python (pip install -r requirements.txt)
+- **[IndexTTS](https://github.com/index-tts/index-tts)** – Zero-shot TTS with duration control and emotion-timbre disentanglement. IndexTTS-2 adds multilingual support (Chinese, English, Japanese, Spanish). Bilibili model license. [Docs](https://index-tts.github.io/)
 - **[Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)** – Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages. [Docs](https://huggingface.co/collections/Qwen/qwen3-tts) | SDK: Python (pip install qwen-tts)
+- **[Voxtral TTS (Mistral)](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)** – 4B open-weight TTS from Mistral. 9 languages, 20 preset voices, 24 kHz output. Deployable via vLLM-Omni; also available as hosted API at console.mistral.ai. [Docs](https://docs.mistral.ai/capabilities/audio/text_to_speech)
 
 ## Open Source Music and Audio Models
 
@@ -83,7 +86,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Riffusion](https://github.com/riffusion/riffusion-hobby)** – Fine-tuned Stable Diffusion generating spectrograms from text, converted to audio. Flask server + Streamlit app included. [Docs](https://huggingface.co/riffusion/riffusion-model-v1)
 - **[Stable Audio Open](https://github.com/Stability-AI/stable-audio-tools)** – Open-weight music and sound generation up to 47s (44.1kHz stereo). [Docs](https://huggingface.co/stabilityai/stable-audio-open-1.0)
 - **[Mustango](https://github.com/AMAAI-Lab/mustango)** – Text-to-music with controllable chords, beats, tempo, and key. LDM + Flan-T5. [Docs](https://amaai-lab.github.io/mustango/)
+- **[ACE-Step 1.5](https://github.com/ace-step/ACE-Step-1.5)** – Music generation model combining LM planning + Diffusion Transformer synthesis. Full songs in <2s on A100, <10s on RTX 3090. XL variant (4B DiT) released April 2026. SDK: Python (pip install acestep)
 - **[Amphion](https://github.com/open-mmlab/Amphion)** – OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
+- **[SongGeneration (Tencent / LeVo)](https://github.com/tencent-ailab/SongGeneration)** – 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license. [Docs](https://huggingface.co/tencent/LeVo-v2-large)
 
 ## Audio Processing
 

@@ -49,6 +49,8 @@ Focused on services developers can integrate today.
 - **[Soundraw](https://soundraw.io)** – Enterprise/B2B royalty-free music generation. Up to 1000 songs/month via API. [API](https://discover.soundraw.io/api)
 - **[Suno](https://suno.com)** – Leading music generation (V5 model). No official public API as of early 2026; beta/partner access only.
 - **[Udio](https://www.udio.com)** – Music generation with v1.5 and v1.5 Allegro models. Developer portal available; limited public docs.
+- **[voicetoinstrument.com](https://voicetoinstrument.com)** – Convert voice to instrumental tracks using AI. Separate vocals from any audio and convert to MIDI/instrument versions.
+
 
 ## Open Source TTS Models
 

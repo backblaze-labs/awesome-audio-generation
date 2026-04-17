@@ -2,10 +2,16 @@
 
 A curated list of AI audio generation APIs, SDKs, and production-ready tools — covering text-to-speech, music generation, and sound design. Focused on services developers can integrate today.
 
+Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+
 ### Related Lists
 
 - [Awesome Image Generation](https://github.com/backblaze-labs/awesome-image-generation)
 - [Awesome Video Generation](https://github.com/backblaze-labs/awesome-video-generation)
+- [Awesome ML Data Pipelines](https://github.com/backblaze-labs/awesome-ml-data-pipelines)
+- [Awesome Multimodal Data](https://github.com/backblaze-labs/awesome-multimodal-data)
+- [Awesome Agent Infrastructure](https://github.com/backblaze-labs/awesome-agent-infrastructure)
+- [Awesome Physical AI](https://github.com/backblaze-labs/awesome-physical-ai)
 
 ## Contents
 
@@ -49,8 +55,6 @@ A curated list of AI audio generation APIs, SDKs, and production-ready tools —
 - **[Stability AI (Stable Audio)](https://stability.ai/stable-audio)** – Commercial Stable Audio 2.5 model for music and sound generation. Also available on Replicate and fal.ai.
 - **[Suno](https://suno.com)** – Leading music generation (V5 model). No official public API as of early 2026; beta/partner access only.
 - **[Udio](https://www.udio.com)** – Music generation with v1.5 and v1.5 Allegro models. Developer portal available; limited public docs.
-- **[voicetoinstrument.com](https://voicetoinstrument.com)** – Convert voice to instrumental tracks using AI. Separate vocals from any audio and convert to MIDI/instrument versions.
-
 
 ## Open Source TTS Models
 
@@ -147,4 +151,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.

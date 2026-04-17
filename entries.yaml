@@ -743,3 +743,53 @@
   github: tencent-ailab/SongGeneration
   b2_integration: ""
   last_verified: 2026-04-18
+
+# ---------------- Open Source TTS Models (expansion 2026-04-18 sweep) ----------------
+
+- name: Dia (Nari Labs)
+  url: https://github.com/nari-labs/dia
+  docs_url: https://huggingface.co/nari-labs/Dia-1.6B
+  description: 1.6B-param dialogue TTS. Generates multi-speaker audio with nonverbal cues (laughter, sighs) in one pass. Voice cloning via audio prompt. Apache-2.0.
+  category: open-source-tts-models
+  github: nari-labs/dia
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install git+https://github.com/nari-labs/dia.git)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: VoxCPM2 (OpenBMB)
+  url: https://github.com/OpenBMB/VoxCPM
+  docs_url: https://huggingface.co/openbmb/VoxCPM2-2B
+  description: 2B tokenizer-free diffusion-AR TTS. Voice Design (voice from text description), controllable cloning, 30 languages, 48kHz stereo. Streaming API support.
+  category: open-source-tts-models
+  github: OpenBMB/VoxCPM
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install voxcpm)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-04-18 sweep) ----------------
+
+- name: HeartMuLa (heartlib)
+  url: https://github.com/HeartMuLa/heartlib
+  docs_url: https://heartmula.github.io/
+  description: 3B open-source music LM conditioned on lyrics, style tags, and reference audio. Includes HeartCodec (12.5Hz music codec), HeartCLAP (audio-text alignment), and HeartTranscriptor (lyrics ASR).
+  category: open-source-music-and-audio-models
+  github: HeartMuLa/heartlib
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install -e .)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: TangoFlux
+  url: https://github.com/declare-lab/TangoFlux
+  docs_url: https://huggingface.co/declare-lab/TangoFlux
+  description: Flow-matching DiT model for text-to-audio and sound-effects generation. 44.1kHz stereo, up to 30s, generated in ~3s on one A40. Research use only (Stability AI Community License).
+  category: open-source-music-and-audio-models
+  github: declare-lab/TangoFlux
+  license: StabilityAI-Community
+  b2_integration: ""
+  last_verified: 2026-04-18

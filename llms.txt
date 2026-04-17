@@ -66,10 +66,14 @@
   - docs: https://huggingface.co/coqui/XTTS-v2
 - [CosyVoice (FunAudioLLM)](https://github.com/FunAudioLLM/CosyVoice): Alibaba/FunAudioLLM multilingual TTS. CosyVoice2 streaming at 150ms latency; CosyVoice3 (Dec 2025) adds RL-tuned voice quality. 9+ languages, zero-shot cloning.
   - docs: https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B
+- [Dia (Nari Labs)](https://github.com/nari-labs/dia): 1.6B-param dialogue TTS. Generates multi-speaker audio with nonverbal cues (laughter, sighs) in one pass. Voice cloning via audio prompt. Apache-2.0.
+  - docs: https://huggingface.co/nari-labs/Dia-1.6B
 - [IndexTTS](https://github.com/index-tts/index-tts): Zero-shot TTS with duration control and emotion-timbre disentanglement. IndexTTS-2 adds multilingual support (Chinese, English, Japanese, Spanish). Bilibili model license.
   - docs: https://index-tts.github.io/
 - [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS): Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages.
   - docs: https://huggingface.co/collections/Qwen/qwen3-tts
+- [VoxCPM2 (OpenBMB)](https://github.com/OpenBMB/VoxCPM): 2B tokenizer-free diffusion-AR TTS. Voice Design (voice from text description), controllable cloning, 30 languages, 48kHz stereo. Streaming API support.
+  - docs: https://huggingface.co/openbmb/VoxCPM2-2B
 - [Voxtral TTS (Mistral)](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603): 4B open-weight TTS from Mistral. 9 languages, 20 preset voices, 24 kHz output. Deployable via vLLM-Omni; also available as hosted API at console.mistral.ai.
   - docs: https://docs.mistral.ai/capabilities/audio/text_to_speech
 
@@ -87,8 +91,12 @@
   - docs: https://amaai-lab.github.io/mustango/
 - [ACE-Step 1.5](https://github.com/ace-step/ACE-Step-1.5): Music generation model combining LM planning + Diffusion Transformer synthesis. Full songs in <2s on A100, <10s on RTX 3090. XL variant (4B DiT) released April 2026.
 - [Amphion](https://github.com/open-mmlab/Amphion): OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
+- [HeartMuLa (heartlib)](https://github.com/HeartMuLa/heartlib): 3B open-source music LM conditioned on lyrics, style tags, and reference audio. Includes HeartCodec (12.5Hz music codec), HeartCLAP (audio-text alignment), and HeartTranscriptor (lyrics ASR).
+  - docs: https://heartmula.github.io/
 - [SongGeneration (Tencent / LeVo)](https://github.com/tencent-ailab/SongGeneration): 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license.
   - docs: https://huggingface.co/tencent/LeVo-v2-large
+- [TangoFlux](https://github.com/declare-lab/TangoFlux): Flow-matching DiT model for text-to-audio and sound-effects generation. 44.1kHz stereo, up to 30s, generated in ~3s on one A40. Research use only (Stability AI Community License).
+  - docs: https://huggingface.co/declare-lab/TangoFlux
 
 ## Audio Processing
 

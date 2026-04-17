@@ -1,0 +1,43 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+# Aim for 6–10 categories total; more means the taxonomy is too granular.
+
+- slug: text-to-speech-apis
+  name: Text-to-Speech APIs
+  description: Commercial TTS APIs with hosted inference and developer SDKs.
+
+- slug: music-and-sound-generation-apis
+  name: Music and Sound Generation APIs
+  description: Hosted APIs for music, background audio, and sound-effect generation.
+
+- slug: open-source-tts-models
+  name: Open Source TTS Models
+  description: Open-weight speech-synthesis models you can run locally or self-host.
+
+- slug: open-source-music-and-audio-models
+  name: Open Source Music and Audio Models
+  description: Open-weight models for music, soundscapes, and general audio generation.
+
+- slug: audio-processing
+  name: Audio Processing
+  description: Libraries and CLIs for manipulating, analysing, and encoding audio.
+
+- slug: voice-agent-frameworks
+  name: Voice Agent Frameworks
+  description: Frameworks for building real-time STT → LLM → TTS voice agents.
+
+- slug: real-time-audio-infrastructure
+  name: Real-Time Audio Infrastructure
+  description: WebRTC, streaming, and low-latency audio transport platforms.
+
+- slug: gpu-cloud-providers
+  name: GPU Cloud Providers
+  description: Serverless and on-demand GPU platforms for running audio models.
+
+- slug: evaluation-and-observability
+  name: Evaluation and Observability
+  description: Benchmarks, leaderboards, and perceptual quality metrics for audio and speech.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.

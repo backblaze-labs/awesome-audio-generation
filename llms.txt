@@ -1,0 +1,136 @@
+# Awesome Audio Generation
+
+> A curated list of AI audio generation APIs, SDKs, and production-ready tools — covering text-to-speech, music generation, and sound design. Focused on services developers can integrate today.
+
+## Text-to-Speech APIs
+
+- [Amazon Polly](https://aws.amazon.com/polly): Neural TTS with SSML support, accessible through any AWS SDK.
+  - docs: https://docs.aws.amazon.com/polly/latest/dg/
+- [Cartesia](https://cartesia.ai): Ultra-low latency Sonic model family with WebSocket multiplexing.
+  - docs: https://docs.cartesia.ai
+- [Deepgram](https://deepgram.com): Aura TTS model with WebSocket streaming. Also offers a Voice Agent API bundling STT + TTS + LLM orchestration.
+  - docs: https://developers.deepgram.com/docs/text-to-speech
+- [ElevenLabs](https://elevenlabs.io): Industry-leading TTS with voice cloning, multilingual support, and streaming. Flagship eleven_v3 model.
+  - docs: https://elevenlabs.io/docs/overview/intro
+- [Google Cloud TTS](https://cloud.google.com/text-to-speech): 380+ voices across 75+ languages. Chirp 3 HD voices available.
+  - docs: https://docs.cloud.google.com/text-to-speech/docs
+- [Hume AI (Octave)](https://www.hume.ai): LLM-trained TTS that understands context and emotion. Octave 2 supports 11+ languages. Also includes EVI for voice agents.
+  - docs: https://dev.hume.ai/docs/text-to-speech-tts/overview
+- [LMNT](https://www.lmnt.com): Ultra-low latency TTS. Voice cloning with 5 seconds of audio.
+  - docs: https://docs.lmnt.com
+- [Microsoft Azure Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech): HD voices GA since March 2025. SSML for fine-grained control. Also includes STT and speaker recognition.
+  - docs: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
+- [Murf AI](https://murf.ai): 150+ voices, 35+ languages, 20 speaking styles. Murf Falcon for low-latency voice agents.
+  - docs: https://murf.ai/api/docs
+- [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech): tts-1, tts-1-hd, and gpt-4o-mini-tts models plus a Realtime API (WebSocket/WebRTC) for low-latency streaming speech.
+  - docs: https://platform.openai.com/docs/api-reference/audio/createSpeech
+- [Play.ht](https://play.ht): Streaming TTS with PlayDialog (multi-voice dialogue) and Play3.0-mini (multilingual).
+  - docs: https://docs.play.ht/reference/api-getting-started
+- [Resemble AI](https://www.resemble.ai): Custom voice cloning specialist. Also publishes the open-source Chatterbox TTS model.
+  - docs: https://docs.resemble.ai
+- [WellSaid Labs](https://www.wellsaid.io): Enterprise-focused TTS. Major API upgrade June 2025 with 50% cost reduction.
+  - docs: https://docs.wellsaidlabs.com/docs/getting-started
+
+## Music and Sound Generation APIs
+
+- [Beatoven.ai](https://www.beatoven.ai): Royalty-free background music from text/mood descriptions. REST API with Python SDK.
+  - docs: https://github.com/Beatoven/public-api
+- [Soundraw](https://soundraw.io): Enterprise/B2B royalty-free music generation. Up to 1000 songs/month via API.
+  - docs: https://discover.soundraw.io/api
+- [Stability AI (Stable Audio)](https://stability.ai/stable-audio): Commercial Stable Audio 2.5 model for music and sound generation. Also available on Replicate and fal.ai.
+- [Suno](https://suno.com): Leading music generation (V5 model). No official public API as of early 2026; beta/partner access only.
+- [Udio](https://www.udio.com): Music generation with v1.5 and v1.5 Allegro models. Developer portal available; limited public docs.
+
+## Open Source TTS Models
+
+- [Bark (Suno)](https://github.com/suno-ai/bark): Generative text-to-audio (speech, music, sound effects). GPT-style + EnCodec architecture.
+  - docs: https://huggingface.co/suno/bark
+- [OpenVoice](https://github.com/myshell-ai/OpenVoice): Instant voice cloning by MIT + MyShell. V2 clones tone color across multiple languages.
+  - docs: https://huggingface.co/myshell-ai/OpenVoiceV2
+- [Fish Speech / FishAudio S1](https://github.com/fishaudio/fish-speech): SOTA multilingual TTS with fine-grained emotion control. 13+ languages. Zero-shot voice cloning with 10-30s reference.
+  - docs: https://huggingface.co/fishaudio/fish-speech-1.5
+- [Chatterbox (Resemble AI)](https://github.com/resemble-ai/chatterbox): SOTA open-source TTS. Outperformed ElevenLabs in blind tests (63.75% preference). 1M+ HF downloads. Includes Perth neural watermarking.
+  - docs: https://huggingface.co/ResembleAI/chatterbox
+- [Tortoise TTS](https://github.com/neonbjb/tortoise-tts): Multi-voice, high-quality TTS with autoregressive + diffusion decoders. Excellent for voice cloning.
+- [F5-TTS](https://github.com/SWivid/F5-TTS): Flow-matching zero-shot voice cloning. 335M params, trained on 95k hours. English and Chinese.
+- [MeloTTS](https://github.com/myshell-ai/MeloTTS): Fast, CPU-capable multilingual TTS. English, Spanish, French, Chinese, Japanese, Korean.
+- [Kokoro TTS](https://github.com/hexgrad/kokoro): 82M param model, top-ranked on TTS Arena. ~210x real-time on RTX 4090. 8 languages, 26 voices.
+  - docs: https://huggingface.co/hexgrad/Kokoro-82M
+- [StyleTTS2](https://github.com/yl4579/StyleTTS2): Style diffusion + adversarial training. Achieves human-level MOS on LJSpeech. Architecture basis for Kokoro.
+  - docs: https://huggingface.co/yl4579/StyleTTS2-LJSpeech
+- [Piper TTS](https://github.com/OHF-Voice/piper1-gpl): Fast local TTS that runs on CPU. ~60MB ONNX-based, designed for edge/IoT. Original repo archived; active at OHF-Voice.
+  - docs: https://rhasspy.github.io/piper-samples/
+- [Coqui TTS / XTTS-v2](https://github.com/idiap/coqui-ai-TTS): 17 languages, <200ms streaming latency, zero-shot voice cloning. Company closed Dec 2023; IDIAP maintains the fork.
+  - docs: https://huggingface.co/coqui/XTTS-v2
+
+## Open Source Music and Audio Models
+
+- [AudioCraft (Meta)](https://github.com/facebookresearch/audiocraft): MusicGen (text-to-music), AudioGen (text-to-SFX), EnCodec (neural codec), AudioSeal (watermarking).
+  - docs: https://audiocraft.metademolab.com
+- [ACE-Step](https://github.com/ace-step/ACE-Step): 3.5B param music foundation model. Up to 4 min of music in 20s on A100. 19 languages, all mainstream styles.
+  - docs: https://huggingface.co/ACE-Step/ACE-Step-v1-3.5B
+- [Riffusion](https://github.com/riffusion/riffusion-hobby): Fine-tuned Stable Diffusion generating spectrograms from text, converted to audio. Flask server + Streamlit app included.
+  - docs: https://huggingface.co/riffusion/riffusion-model-v1
+- [Stable Audio Open](https://github.com/Stability-AI/stable-audio-tools): Open-weight music and sound generation up to 47s (44.1kHz stereo).
+  - docs: https://huggingface.co/stabilityai/stable-audio-open-1.0
+- [Mustango](https://github.com/AMAAI-Lab/mustango): Text-to-music with controllable chords, beats, tempo, and key. LDM + Flan-T5.
+  - docs: https://amaai-lab.github.io/mustango/
+
+## Audio Processing
+
+- [PyDub](https://github.com/jiaaro/pydub): High-level Python audio manipulation. Slicing, concatenating, normalizing, format conversion.
+- [librosa](https://github.com/librosa/librosa): Python audio analysis. Spectrograms, MFCCs, beat tracking, pitch analysis.
+  - docs: https://librosa.org/doc/latest/
+- [Pedalboard (Spotify)](https://github.com/spotify/pedalboard): Python library wrapping JUCE for audio effects, VST/AU plugin loading, audio I/O.
+- [Torchaudio](https://github.com/pytorch/audio): PyTorch's official audio library. I/O, feature extraction, transforms, pretrained models.
+  - docs: https://pytorch.org/audio/
+- [soundfile](https://github.com/bastibe/python-soundfile): Reads and writes WAV, FLAC, OGG via libsndfile. Pairs with NumPy/librosa.
+- [FFmpeg](https://ffmpeg.org): Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines.
+
+## Voice Agent Frameworks
+
+- [Pipecat (Daily)](https://github.com/pipecat-ai/pipecat): Open-source Python framework for STT → LLM → TTS voice agent pipelines. Modular adapters for ElevenLabs, Cartesia, Deepgram, OpenAI, and more.
+  - docs: https://docs.pipecat.ai
+- [LiveKit Agents](https://github.com/livekit/agents): Open-source framework for real-time voice AI agents with semantic turn detection.
+  - docs: https://docs.livekit.io
+- [Vapi](https://vapi.ai): Managed voice AI agent platform. Abstracts STT/LLM/TTS orchestration. Integrates ElevenLabs, Deepgram, OpenAI, Anthropic.
+  - docs: https://docs.vapi.ai
+
+## Real-Time Audio Infrastructure
+
+- [LiveKit](https://livekit.io): Open-source WebRTC SFU (Go). Managed cloud available. Foundation for voice AI agents.
+  - docs: https://docs.livekit.io
+- [Daily](https://www.daily.co): WebRTC audio/video API. Creator of Pipecat. Supports OpenAI Audio Models natively.
+  - docs: https://docs.daily.co
+- [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime): Native speech-to-speech with GPT-4o. WebSocket and WebRTC. Audio streamed as base64 PCM chunks.
+
+## GPU Cloud Providers
+
+- [fal.ai](https://fal.ai): Serverless inference for generative media.
+  - docs: https://docs.fal.ai
+- [Modal](https://modal.com): Serverless Python-first GPU platform. Sub-second cold starts.
+  - docs: https://modal.com/docs/guide
+- [Replicate](https://replicate.com): Serverless model hosting for open-source audio models.
+  - docs: https://replicate.com/docs
+- [RunPod](https://www.runpod.io): GPU pods and serverless endpoints. REST, GraphQL, and CLI.
+  - docs: https://docs.runpod.io
+
+## Evaluation and Observability
+
+- [WER via Whisper](https://github.com/openai/whisper): Standard intelligibility metric. Run synthesized speech through Whisper ASR and measure transcription error rate.
+- [DNSMOS (Microsoft)](https://github.com/microsoft/DNS-Challenge): Deep Noise Suppression MOS. Non-intrusive perceptual quality metric for speech enhancement. P.835 framework. Also in torchmetrics.
+- [UTMOS](https://github.com/sarulab-speech/UTMOS22): MOS prediction system from UTokyo-Sarulab. Predicts Mean Opinion Score without human listeners. Pearson correlation ~0.82.
+  - docs: https://arxiv.org/abs/2204.02152
+- [Speech Arena (Artificial Analysis)](https://huggingface.co/spaces/ArtificialAnalysis/Speech-Arena-Leaderboard): Broader speech model leaderboard including latency, cost, and quality dimensions.
+- [TTS Arena (HuggingFace)](https://huggingface.co/spaces/TTS-AGI/TTS-Arena-V2): Community blind pairwise voting with Elo-style ranking. The most referenced human-preference benchmark for TTS.
+  - docs: https://huggingface.co/blog/arena-tts
+
+## Templates and Example Projects
+
+- [Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning): Classic SV2TTS demo. Clone a voice in 5 seconds. ~55k stars.
+- [Kokoro Web](https://github.com/eduardolat/kokoro-web): Self-hosted, OpenAI API-compatible TTS server using Kokoro-82M. Drop-in replacement for OpenAI TTS endpoint.
+- [Stable Audio Open Demo](https://github.com/Stability-AI/stable-audio-open-demo): Official Stability AI demo notebook for Stable Audio Open 1.0.
+- [B2 Whisper Transcriber](https://github.com/backblaze-b2-samples/b2-whisper-transformersjs-transcriber): Audio transcription app using Whisper and Transformers.js with Backblaze B2 cloud storage.
+  - b2 integration: https://github.com/backblaze-b2-samples/b2-whisper-transformersjs-transcriber
+- [ACE-Step Demo](https://ace-step.github.io/): Official music generation samples and comparisons.
+- [LiveKit Agent Examples](https://github.com/livekit-examples): Official examples for building voice/video AI agents.

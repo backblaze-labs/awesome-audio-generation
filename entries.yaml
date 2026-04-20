@@ -793,3 +793,47 @@
   license: StabilityAI-Community
   b2_integration: ""
   last_verified: 2026-04-18
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-04-18 sweep B) ----------------
+
+- name: YuE (M-A-P)
+  url: https://github.com/multimodal-art-projection/YuE
+  docs_url: https://map-yue.github.io/
+  description: Open-source LLaMA2-based foundation model for full-song generation. Converts lyrics to vocals + accompaniment across diverse genres and languages. Supports LoRA fine-tuning and in-context style transfer.
+  category: open-source-music-and-audio-models
+  github: multimodal-art-projection/YuE
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: InspireMusic (FunAudioLLM)
+  url: https://github.com/FunAudioLLM/InspireMusic
+  docs_url: https://funaudiollm.github.io/inspiremusic/
+  description: Alibaba toolkit for text-to-music, music continuation, and audio super-resolution. Autoregressive transformer + flow-matching model generates 48kHz music from text and audio prompts.
+  category: open-source-music-and-audio-models
+  github: FunAudioLLM/InspireMusic
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Audio Processing (expansion 2026-04-18 sweep B) ----------------
+
+- name: BigVGAN (NVIDIA)
+  url: https://github.com/NVIDIA/BigVGAN
+  docs_url: https://nv-adlr.github.io/projects/bigvgan/
+  description: Universal neural vocoder converting mel spectrograms to waveforms. 112M-param model with HuggingFace Hub integration. Generalizes zero-shot to speech, music, and instruments at up to 44kHz.
+  category: audio-processing
+  github: NVIDIA/BigVGAN
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Audio Processing (LALAL.AI API) ----------------
+
+- name: LALAL.AI
+  url: https://www.lalal.ai
+  docs_url: https://www.lalal.ai/api/v1/docs/
+  description: Commercial API for AI-powered stem separation (vocals, drums, bass, guitar, strings) and voice cloning. API v1 released Feb 2026 with OpenAPI spec and Python code examples.
+  category: audio-processing
+  b2_integration: ""
+  last_verified: 2026-04-18

@@ -91,8 +91,10 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[ACE-Step 1.5](https://github.com/ace-step/ACE-Step-1.5)** – Music generation model combining LM planning + Diffusion Transformer synthesis. Full songs in <2s on A100, <10s on RTX 3090. XL variant (4B DiT) released April 2026. SDK: Python (pip install acestep)
 - **[Amphion](https://github.com/open-mmlab/Amphion)** – OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
 - **[HeartMuLa (heartlib)](https://github.com/HeartMuLa/heartlib)** – 3B open-source music LM conditioned on lyrics, style tags, and reference audio. Includes HeartCodec (12.5Hz music codec), HeartCLAP (audio-text alignment), and HeartTranscriptor (lyrics ASR). [Docs](https://heartmula.github.io/) | SDK: Python (pip install -e .)
+- **[InspireMusic (FunAudioLLM)](https://github.com/FunAudioLLM/InspireMusic)** – Alibaba toolkit for text-to-music, music continuation, and audio super-resolution. Autoregressive transformer + flow-matching model generates 48kHz music from text and audio prompts. [Docs](https://funaudiollm.github.io/inspiremusic/)
 - **[SongGeneration (Tencent / LeVo)](https://github.com/tencent-ailab/SongGeneration)** – 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license. [Docs](https://huggingface.co/tencent/LeVo-v2-large)
 - **[TangoFlux](https://github.com/declare-lab/TangoFlux)** – Flow-matching DiT model for text-to-audio and sound-effects generation. 44.1kHz stereo, up to 30s, generated in ~3s on one A40. Research use only (Stability AI Community License). [Docs](https://huggingface.co/declare-lab/TangoFlux)
+- **[YuE (M-A-P)](https://github.com/multimodal-art-projection/YuE)** – Open-source LLaMA2-based foundation model for full-song generation. Converts lyrics to vocals + accompaniment across diverse genres and languages. Supports LoRA fine-tuning and in-context style transfer. [Docs](https://map-yue.github.io/)
 
 ## Audio Processing
 
@@ -103,8 +105,10 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Pedalboard (Spotify)](https://github.com/spotify/pedalboard)** – Python library wrapping JUCE for audio effects, VST/AU plugin loading, audio I/O. SDK: Python (pip install pedalboard)
 - **[Torchaudio](https://github.com/pytorch/audio)** – PyTorch's official audio library. I/O, feature extraction, transforms, pretrained models. [Docs](https://pytorch.org/audio/) | SDK: Python (pip install torchaudio)
 - **[soundfile](https://github.com/bastibe/python-soundfile)** – Reads and writes WAV, FLAC, OGG via libsndfile. Pairs with NumPy/librosa. SDK: Python (pip install soundfile)
+- **[BigVGAN (NVIDIA)](https://github.com/NVIDIA/BigVGAN)** – Universal neural vocoder converting mel spectrograms to waveforms. 112M-param model with HuggingFace Hub integration. Generalizes zero-shot to speech, music, and instruments at up to 44kHz. [Docs](https://nv-adlr.github.io/projects/bigvgan/)
 - **[ClearerVoice-Studio](https://github.com/modelscope/ClearerVoice-Studio)** – ModelScope toolkit for speech enhancement, separation, super-resolution, and target speaker extraction. Includes SpeechScore quality metrics (PESQ, STOI, DNSMOS). SDK: Python (pip install clearvoice)
 - **[FFmpeg](https://ffmpeg.org)** – Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines. SDK: [Python (ffmpeg-python)](https://github.com/kkroening/ffmpeg-python), Node (fluent-ffmpeg)
+- **[LALAL.AI](https://www.lalal.ai)** – Commercial API for AI-powered stem separation (vocals, drums, bass, guitar, strings) and voice cloning. API v1 released Feb 2026 with OpenAPI spec and Python code examples. [Docs](https://www.lalal.ai/api/v1/docs/)
 
 ## Voice Agent Frameworks
 

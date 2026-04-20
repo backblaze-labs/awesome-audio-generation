@@ -93,10 +93,14 @@
 - [Amphion](https://github.com/open-mmlab/Amphion): OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
 - [HeartMuLa (heartlib)](https://github.com/HeartMuLa/heartlib): 3B open-source music LM conditioned on lyrics, style tags, and reference audio. Includes HeartCodec (12.5Hz music codec), HeartCLAP (audio-text alignment), and HeartTranscriptor (lyrics ASR).
   - docs: https://heartmula.github.io/
+- [InspireMusic (FunAudioLLM)](https://github.com/FunAudioLLM/InspireMusic): Alibaba toolkit for text-to-music, music continuation, and audio super-resolution. Autoregressive transformer + flow-matching model generates 48kHz music from text and audio prompts.
+  - docs: https://funaudiollm.github.io/inspiremusic/
 - [SongGeneration (Tencent / LeVo)](https://github.com/tencent-ailab/SongGeneration): 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license.
   - docs: https://huggingface.co/tencent/LeVo-v2-large
 - [TangoFlux](https://github.com/declare-lab/TangoFlux): Flow-matching DiT model for text-to-audio and sound-effects generation. 44.1kHz stereo, up to 30s, generated in ~3s on one A40. Research use only (Stability AI Community License).
   - docs: https://huggingface.co/declare-lab/TangoFlux
+- [YuE (M-A-P)](https://github.com/multimodal-art-projection/YuE): Open-source LLaMA2-based foundation model for full-song generation. Converts lyrics to vocals + accompaniment across diverse genres and languages. Supports LoRA fine-tuning and in-context style transfer.
+  - docs: https://map-yue.github.io/
 
 ## Audio Processing
 
@@ -107,8 +111,12 @@
 - [Torchaudio](https://github.com/pytorch/audio): PyTorch's official audio library. I/O, feature extraction, transforms, pretrained models.
   - docs: https://pytorch.org/audio/
 - [soundfile](https://github.com/bastibe/python-soundfile): Reads and writes WAV, FLAC, OGG via libsndfile. Pairs with NumPy/librosa.
+- [BigVGAN (NVIDIA)](https://github.com/NVIDIA/BigVGAN): Universal neural vocoder converting mel spectrograms to waveforms. 112M-param model with HuggingFace Hub integration. Generalizes zero-shot to speech, music, and instruments at up to 44kHz.
+  - docs: https://nv-adlr.github.io/projects/bigvgan/
 - [ClearerVoice-Studio](https://github.com/modelscope/ClearerVoice-Studio): ModelScope toolkit for speech enhancement, separation, super-resolution, and target speaker extraction. Includes SpeechScore quality metrics (PESQ, STOI, DNSMOS).
 - [FFmpeg](https://ffmpeg.org): Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines.
+- [LALAL.AI](https://www.lalal.ai): Commercial API for AI-powered stem separation (vocals, drums, bass, guitar, strings) and voice cloning. API v1 released Feb 2026 with OpenAPI spec and Python code examples.
+  - docs: https://www.lalal.ai/api/v1/docs/
 
 ## Voice Agent Frameworks
 

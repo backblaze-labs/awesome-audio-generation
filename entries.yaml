@@ -837,3 +837,58 @@
   category: audio-processing
   b2_integration: ""
   last_verified: 2026-04-18
+
+# ---------------- Text-to-Speech APIs (expansion 2026-04-21) ----------------
+
+- name: Fish Audio
+  url: https://fish.audio
+  docs_url: https://docs.fish.audio
+  description: Hosted TTS and voice cloning API backed by the open-source Fish Speech model. S2 Pro supports 80+ languages, voice cloning from 15s of audio, WebSocket streaming. Python and JavaScript SDKs.
+  category: text-to-speech-apis
+  sdks:
+    - {language: Python, url: https://github.com/fishaudio/fish-audio-python}
+    - {language: JavaScript}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: MiniMax Audio
+  url: https://platform.minimax.io
+  docs_url: https://platform.minimax.io/docs/guides/speech-voice-clone
+  description: Commercial TTS and voice cloning API. Speech-2.8-HD model supports 40+ languages and 7 emotion modes. Voice cloning from 10s reference clip via REST API.
+  category: text-to-speech-apis
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-04-21) ----------------
+
+- name: DiffRhythm
+  url: https://github.com/ASLP-lab/DiffRhythm
+  docs_url: https://huggingface.co/ASLP-lab/DiffRhythm
+  description: Latent diffusion model for end-to-end full-song generation (vocals + accompaniment). Generates up to 4m45s of music in ~10s. Trained on 1M songs (60k hours). Apache-2.0.
+  category: open-source-music-and-audio-models
+  github: ASLP-lab/DiffRhythm
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: AudioX
+  url: https://github.com/ZeyueT/AudioX
+  docs_url: https://huggingface.co/HKUSTAudio/AudioX
+  description: Unified diffusion transformer for anything-to-audio generation. Takes text, video, image, music, or audio as input; outputs general audio or music. Accepted at ICLR 2026. CC-BY-NC.
+  category: open-source-music-and-audio-models
+  github: ZeyueT/AudioX
+  license: CC-BY-NC-4.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Templates and Example Projects (expansion 2026-04-21) ----------------
+
+- name: Voicebox
+  url: https://github.com/jamiepine/voicebox
+  docs_url: https://voicebox.sh
+  description: Local-first open-source voice synthesis studio with 7 TTS engines, voice cloning, timeline editor, and REST API. Runs on CUDA, Metal, ROCm, and DirectML. MIT license.
+  category: templates-and-example-projects
+  github: jamiepine/voicebox
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-21

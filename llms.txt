@@ -12,6 +12,8 @@
   - docs: https://developers.deepgram.com/docs/text-to-speech
 - [ElevenLabs](https://elevenlabs.io): Industry-leading TTS with voice cloning, multilingual support, and streaming. Flagship eleven_v3 model.
   - docs: https://elevenlabs.io/docs/overview/intro
+- [Fish Audio](https://fish.audio): Hosted TTS and voice cloning API backed by the open-source Fish Speech model. S2 Pro supports 80+ languages, voice cloning from 15s of audio, WebSocket streaming. Python and JavaScript SDKs.
+  - docs: https://docs.fish.audio
 - [Google Cloud TTS](https://cloud.google.com/text-to-speech): 380+ voices across 75+ languages. Chirp 3 HD voices available.
   - docs: https://docs.cloud.google.com/text-to-speech/docs
 - [Hume AI (Octave)](https://www.hume.ai): LLM-trained TTS that understands context and emotion. Octave 2 supports 11+ languages. Also includes EVI for voice agents.
@@ -22,6 +24,8 @@
   - docs: https://docs.lmnt.com
 - [Microsoft Azure Speech](https://azure.microsoft.com/en-us/products/ai-services/ai-speech): HD voices GA since March 2025. SSML for fine-grained control. Also includes STT and speaker recognition.
   - docs: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/
+- [MiniMax Audio](https://platform.minimax.io): Commercial TTS and voice cloning API. Speech-2.8-HD model supports 40+ languages and 7 emotion modes. Voice cloning from 10s reference clip via REST API.
+  - docs: https://platform.minimax.io/docs/guides/speech-voice-clone
 - [Murf AI](https://murf.ai): 150+ voices, 35+ languages, 20 speaking styles. Murf Falcon for low-latency voice agents.
   - docs: https://murf.ai/api/docs
 - [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech): tts-1, tts-1-hd, and gpt-4o-mini-tts models plus a Realtime API (WebSocket/WebRTC) for low-latency streaming speech.
@@ -91,6 +95,10 @@
   - docs: https://amaai-lab.github.io/mustango/
 - [ACE-Step 1.5](https://github.com/ace-step/ACE-Step-1.5): Music generation model combining LM planning + Diffusion Transformer synthesis. Full songs in <2s on A100, <10s on RTX 3090. XL variant (4B DiT) released April 2026.
 - [Amphion](https://github.com/open-mmlab/Amphion): OpenMMLab toolkit for TTS, voice conversion, singing voice conversion, and text-to-audio. Includes Vevo2 (speech + singing) and DualCodec neural codec.
+- [AudioX](https://github.com/ZeyueT/AudioX): Unified diffusion transformer for anything-to-audio generation. Takes text, video, image, music, or audio as input; outputs general audio or music. Accepted at ICLR 2026. CC-BY-NC.
+  - docs: https://huggingface.co/HKUSTAudio/AudioX
+- [DiffRhythm](https://github.com/ASLP-lab/DiffRhythm): Latent diffusion model for end-to-end full-song generation (vocals + accompaniment). Generates up to 4m45s of music in ~10s. Trained on 1M songs (60k hours). Apache-2.0.
+  - docs: https://huggingface.co/ASLP-lab/DiffRhythm
 - [HeartMuLa (heartlib)](https://github.com/HeartMuLa/heartlib): 3B open-source music LM conditioned on lyrics, style tags, and reference audio. Includes HeartCodec (12.5Hz music codec), HeartCLAP (audio-text alignment), and HeartTranscriptor (lyrics ASR).
   - docs: https://heartmula.github.io/
 - [InspireMusic (FunAudioLLM)](https://github.com/FunAudioLLM/InspireMusic): Alibaba toolkit for text-to-music, music continuation, and audio super-resolution. Autoregressive transformer + flow-matching model generates 48kHz music from text and audio prompts.
@@ -166,3 +174,5 @@
 - [ACE-Step Demo](https://ace-step.github.io/): Official music generation samples and comparisons.
 - [HuggingFace Speech-to-Speech](https://github.com/huggingface/speech-to-speech): Cascaded VAD → STT → LLM → TTS pipeline for local voice agents. Supports Whisper, MeloTTS, and Hugging Face LLMs via server/client or WebSocket.
 - [LiveKit Agent Examples](https://github.com/livekit-examples): Official examples for building voice/video AI agents.
+- [Voicebox](https://github.com/jamiepine/voicebox): Local-first open-source voice synthesis studio with 7 TTS engines, voice cloning, timeline editor, and REST API. Runs on CUDA, Metal, ROCm, and DirectML. MIT license.
+  - docs: https://voicebox.sh

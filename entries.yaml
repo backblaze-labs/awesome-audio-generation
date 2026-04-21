@@ -892,3 +892,47 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-04-21
+
+# ---------------- Templates and Example Projects (expansion 2026-04-21 sweep) ----------------
+
+- name: Kokoro-FastAPI
+  url: https://github.com/remsky/Kokoro-FastAPI
+  description: Dockerized FastAPI wrapper for Kokoro-82M. OpenAI-compatible /v1/audio/speech endpoint with CPU ONNX and NVIDIA GPU PyTorch support. Drop-in replacement for OpenAI TTS. 4700+ stars.
+  category: templates-and-example-projects
+  github: remsky/Kokoro-FastAPI
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-04-21 sweep) ----------------
+
+- name: DiffSinger (OpenVPI)
+  url: https://github.com/openvpi/DiffSinger
+  description: Advanced singing voice synthesis system using shallow diffusion conditioned on musical score (lyrics, pitch, MIDI). 44.1kHz output with variance models for pitch, energy, and breathiness control. v2.5.1 released Jan 2026.
+  category: open-source-music-and-audio-models
+  github: openvpi/DiffSinger
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: ThinkSound (FunAudioLLM)
+  url: https://github.com/FunAudioLLM/ThinkSound
+  docs_url: https://huggingface.co/FunAudioLLM/ThinkSound
+  description: Chain-of-Thought guided any-modality-to-audio framework (video, text, audio input). Supports video-to-audio SOTA, object-centric sound editing, and targeted audio refinement. NeurIPS 2025. pip install thinksound.
+  category: open-source-music-and-audio-models
+  github: FunAudioLLM/ThinkSound
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install thinksound)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Step-Audio-EditX
+  url: https://github.com/stepfun-ai/Step-Audio-EditX
+  docs_url: https://stepaudiollm.github.io/step-audio-editx/
+  description: 3B-param RL-trained model for expressive audio editing. Modifies emotion, speaking style, and paralinguistic cues (laugh, exhale, etc.) on existing audio clips. Also supports zero-shot TTS. Apache-2.0.
+  category: open-source-music-and-audio-models
+  github: stepfun-ai/Step-Audio-EditX
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21

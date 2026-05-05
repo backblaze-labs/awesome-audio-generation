@@ -36,6 +36,8 @@
   - docs: https://docs.resemble.ai
 - [WellSaid Labs](https://www.wellsaid.io): Enterprise-focused TTS. Major API upgrade June 2025 with 50% cost reduction.
   - docs: https://docs.wellsaidlabs.com/docs/getting-started
+- [xAI Grok TTS](https://x.ai/api/voice): Commercial TTS API launched April 2026. 5 expressive voices, 20 languages, inline speech tags (laughter, whispers), WebSocket streaming, and voice cloning via custom-voices endpoint. $4.20/1M chars.
+  - docs: https://docs.x.ai/developers/model-capabilities/audio/voice
 
 ## Music and Sound Generation APIs
 
@@ -74,8 +76,12 @@
   - docs: https://huggingface.co/nari-labs/Dia-1.6B
 - [IndexTTS](https://github.com/index-tts/index-tts): Zero-shot TTS with duration control and emotion-timbre disentanglement. IndexTTS-2 adds multilingual support (Chinese, English, Japanese, Spanish). Bilibili model license.
   - docs: https://index-tts.github.io/
+- [MOSS-TTS (OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS): Open-source TTS model family (Apache-2.0). Five variants covering voice cloning, dialogue, voice design, realtime streaming, and sound effects. 20 languages; MOSS-TTS-Nano runs on 4 CPU cores. Launched Feb 2026.
+  - docs: https://huggingface.co/collections/OpenMOSS/moss-tts-family
 - [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS): Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages.
   - docs: https://huggingface.co/collections/Qwen/qwen3-tts
+- [TADA (Hume AI)](https://github.com/HumeAI/tada): Open-source speech-language model (1B/3B) with 1:1 text-acoustic alignment. Zero content hallucinations, RTF 0.09 (5x faster than comparable LLM-TTS), 10 languages. Weights under Llama 3.2 license; code MIT.
+  - docs: https://huggingface.co/HumeAI/tada-3b-ml
 - [VoxCPM2 (OpenBMB)](https://github.com/OpenBMB/VoxCPM): 2B tokenizer-free diffusion-AR TTS. Voice Design (voice from text description), controllable cloning, 30 languages, 48kHz stereo. Streaming API support.
   - docs: https://huggingface.co/openbmb/VoxCPM2-2B
 - [Voxtral TTS (Mistral)](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603): 4B open-weight TTS from Mistral. 9 languages, 20 preset voices, 24 kHz output. Deployable via vLLM-Omni; also available as hosted API at console.mistral.ai.

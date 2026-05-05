@@ -936,3 +936,41 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-21
+
+# ---------------- Text-to-Speech APIs (expansion 2026-05-04) ----------------
+
+- name: xAI Grok TTS
+  url: https://x.ai/api/voice
+  docs_url: https://docs.x.ai/developers/model-capabilities/audio/voice
+  description: Commercial TTS API launched April 2026. 5 expressive voices, 20 languages, inline speech tags (laughter, whispers), WebSocket streaming, and voice cloning via custom-voices endpoint. $4.20/1M chars.
+  category: text-to-speech-apis
+  sdks:
+    - {language: Python, url: https://github.com/xai-org/xai-sdk-python}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Open Source TTS Models (expansion 2026-05-04) ----------------
+
+- name: TADA (Hume AI)
+  url: https://github.com/HumeAI/tada
+  docs_url: https://huggingface.co/HumeAI/tada-3b-ml
+  description: Open-source speech-language model (1B/3B) with 1:1 text-acoustic alignment. Zero content hallucinations, RTF 0.09 (5x faster than comparable LLM-TTS), 10 languages. Weights under Llama 3.2 license; code MIT.
+  category: open-source-tts-models
+  github: HumeAI/tada
+  license: MIT
+  sdks:
+    - {language: Python (pip install hume-tada)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: MOSS-TTS (OpenMOSS)
+  url: https://github.com/OpenMOSS/MOSS-TTS
+  docs_url: https://huggingface.co/collections/OpenMOSS/moss-tts-family
+  description: Open-source TTS model family (Apache-2.0). Five variants covering voice cloning, dialogue, voice design, realtime streaming, and sound effects. 20 languages; MOSS-TTS-Nano runs on 4 CPU cores. Launched Feb 2026.
+  category: open-source-tts-models
+  github: OpenMOSS/MOSS-TTS
+  license: Apache-2.0
+  sdks:
+    - {language: "Python (pip install -e '.[torch-runtime]')"}
+  b2_integration: ""
+  last_verified: 2026-05-04

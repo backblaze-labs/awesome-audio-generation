@@ -78,10 +78,16 @@
   - docs: https://index-tts.github.io/
 - [MOSS-TTS (OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS): Open-source TTS model family (Apache-2.0). Five variants covering voice cloning, dialogue, voice design, realtime streaming, and sound effects. 20 languages; MOSS-TTS-Nano runs on 4 CPU cores. Launched Feb 2026.
   - docs: https://huggingface.co/collections/OpenMOSS/moss-tts-family
+- [Orpheus-TTS](https://github.com/canopyai/Orpheus-TTS): Llama-3B-based TTS with guided emotion tags (laughter, sighs, etc.), zero-shot voice cloning, and 200ms streaming latency. Trained on 100k hours of English speech.
+  - docs: https://huggingface.co/canopylabs/orpheus-3b-0.1-ft
+- [OuteTTS](https://github.com/edwko/OuteTTS): Extends any LLM with TTS via a pure-language-model approach. 0.6B and 1B variants. One-shot voice cloning, multilingual, no phoneme pre-processing required. Backends for CUDA, ROCm, Metal, Vulkan.
+  - docs: https://huggingface.co/OuteAI/OuteTTS-1.0-1B
 - [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS): Alibaba Cloud open-source TTS series (0.6B–1.7B). Voice cloning from 3s reference, free-form voice design, 97ms streaming latency. 10 languages.
   - docs: https://huggingface.co/collections/Qwen/qwen3-tts
 - [TADA (Hume AI)](https://github.com/HumeAI/tada): Open-source speech-language model (1B/3B) with 1:1 text-acoustic alignment. Zero content hallucinations, RTF 0.09 (5x faster than comparable LLM-TTS), 10 languages. Weights under Llama 3.2 license; code MIT.
   - docs: https://huggingface.co/HumeAI/tada-3b-ml
+- [VibeVoice (Microsoft)](https://github.com/microsoft/VibeVoice): MIT open-source TTS family (1.5B) for long-form multi-speaker conversational audio up to 90 min. Next-token diffusion at 7.5 Hz. ICLR 2026 Oral. Also ships a Realtime-0.5B streaming variant.
+  - docs: https://microsoft.github.io/VibeVoice/
 - [VoxCPM2 (OpenBMB)](https://github.com/OpenBMB/VoxCPM): 2B tokenizer-free diffusion-AR TTS. Voice Design (voice from text description), controllable cloning, 30 languages, 48kHz stereo. Streaming API support.
   - docs: https://huggingface.co/openbmb/VoxCPM2-2B
 - [Voxtral TTS (Mistral)](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603): 4B open-weight TTS from Mistral. 9 languages, 20 preset voices, 24 kHz output. Deployable via vLLM-Omni; also available as hosted API at console.mistral.ai.
@@ -112,6 +118,8 @@
   - docs: https://funaudiollm.github.io/inspiremusic/
 - [SongGeneration (Tencent / LeVo)](https://github.com/tencent-ailab/SongGeneration): 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license.
   - docs: https://huggingface.co/tencent/LeVo-v2-large
+- [SoulX-Singer](https://github.com/Soul-AILab/SoulX-Singer): Zero-shot singing voice synthesis supporting Mandarin, English, and Cantonese. Trained on 42k hours of vocal data. Supports melody-conditioned (F0) and score-conditioned (MIDI) control. Companion SVC model released March 2026.
+  - docs: https://soul-ailab.github.io/soulx-singer/
 - [Step-Audio-EditX](https://github.com/stepfun-ai/Step-Audio-EditX): 3B-param RL-trained model for expressive audio editing. Modifies emotion, speaking style, and paralinguistic cues (laugh, exhale, etc.) on existing audio clips. Also supports zero-shot TTS. Apache-2.0.
   - docs: https://stepaudiollm.github.io/step-audio-editx/
 - [TangoFlux](https://github.com/declare-lab/TangoFlux): Flow-matching DiT model for text-to-audio and sound-effects generation. 44.1kHz stereo, up to 30s, generated in ~3s on one A40. Research use only (Stability AI Community License).
@@ -136,6 +144,7 @@
 - [FFmpeg](https://ffmpeg.org): Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines.
 - [LALAL.AI](https://www.lalal.ai): Commercial API for AI-powered stem separation (vocals, drums, bass, guitar, strings) and voice cloning. API v1 released Feb 2026 with OpenAPI spec and Python code examples.
   - docs: https://www.lalal.ai/api/v1/docs/
+- [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS): Python library for streaming TTS with minimal latency. Wraps OpenAI, ElevenLabs, Azure, Kokoro, Piper, Coqui, and 15+ other engines. Automatic fallback across engines. v0.6.0 released March 2026.
 
 ## Voice Agent Frameworks
 

@@ -951,6 +951,40 @@
 
 # ---------------- Open Source TTS Models (expansion 2026-05-04) ----------------
 
+- name: VibeVoice (Microsoft)
+  url: https://github.com/microsoft/VibeVoice
+  docs_url: https://microsoft.github.io/VibeVoice/
+  description: MIT open-source TTS family (1.5B) for long-form multi-speaker conversational audio up to 90 min. Next-token diffusion at 7.5 Hz. ICLR 2026 Oral. Also ships a Realtime-0.5B streaming variant.
+  category: open-source-tts-models
+  github: microsoft/VibeVoice
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: Orpheus-TTS
+  url: https://github.com/canopyai/Orpheus-TTS
+  docs_url: https://huggingface.co/canopylabs/orpheus-3b-0.1-ft
+  description: Llama-3B-based TTS with guided emotion tags (laughter, sighs, etc.), zero-shot voice cloning, and 200ms streaming latency. Trained on 100k hours of English speech.
+  category: open-source-tts-models
+  github: canopyai/Orpheus-TTS
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install orpheus-speech)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: OuteTTS
+  url: https://github.com/edwko/OuteTTS
+  docs_url: https://huggingface.co/OuteAI/OuteTTS-1.0-1B
+  description: Extends any LLM with TTS via a pure-language-model approach. 0.6B and 1B variants. One-shot voice cloning, multilingual, no phoneme pre-processing required. Backends for CUDA, ROCm, Metal, Vulkan.
+  category: open-source-tts-models
+  github: edwko/OuteTTS
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install outetts)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 - name: TADA (Hume AI)
   url: https://github.com/HumeAI/tada
   docs_url: https://huggingface.co/HumeAI/tada-3b-ml
@@ -972,5 +1006,30 @@
   license: Apache-2.0
   sdks:
     - {language: "Python (pip install -e '.[torch-runtime]')"}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-05-04) ----------------
+
+- name: SoulX-Singer
+  url: https://github.com/Soul-AILab/SoulX-Singer
+  docs_url: https://soul-ailab.github.io/soulx-singer/
+  description: Zero-shot singing voice synthesis supporting Mandarin, English, and Cantonese. Trained on 42k hours of vocal data. Supports melody-conditioned (F0) and score-conditioned (MIDI) control. Companion SVC model released March 2026.
+  category: open-source-music-and-audio-models
+  github: Soul-AILab/SoulX-Singer
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Audio Processing (expansion 2026-05-04) ----------------
+
+- name: RealtimeTTS
+  url: https://github.com/KoljaB/RealtimeTTS
+  description: Python library for streaming TTS with minimal latency. Wraps OpenAI, ElevenLabs, Azure, Kokoro, Piper, Coqui, and 15+ other engines. Automatic fallback across engines. v0.6.0 released March 2026.
+  category: audio-processing
+  github: KoljaB/RealtimeTTS
+  license: MIT
+  sdks:
+    - {language: "Python (pip install realtimetts[all])"}
   b2_integration: ""
   last_verified: 2026-05-04

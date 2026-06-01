@@ -14,6 +14,8 @@
   - docs: https://elevenlabs.io/docs/overview/intro
 - [Fish Audio](https://fish.audio): Hosted TTS and voice cloning API backed by the open-source Fish Speech model. S2 Pro supports 80+ languages, voice cloning from 15s of audio, WebSocket streaming. Python and JavaScript SDKs.
   - docs: https://docs.fish.audio
+- [Gemini TTS (Google)](https://ai.google.dev/gemini-api/docs/speech-generation): Gemini 2.5 Flash/Pro TTS and Gemini 3.1 Flash TTS via the Gemini API. 30 voices, 100+ languages, natural language style control, audio tags ([whispers], [laughs]), multi-speaker (2 voices). Separate from Google Cloud TTS.
+  - docs: https://ai.google.dev/gemini-api/docs/speech-generation
 - [Google Cloud TTS](https://cloud.google.com/text-to-speech): 380+ voices across 75+ languages. Chirp 3 HD voices available.
   - docs: https://docs.cloud.google.com/text-to-speech/docs
 - [Hume AI (Octave)](https://www.hume.ai): LLM-trained TTS that understands context and emotion. Octave 2 supports 11+ languages. Also includes EVI for voice agents.
@@ -70,6 +72,8 @@
   - docs: https://rhasspy.github.io/piper-samples/
 - [Coqui TTS / XTTS-v2](https://github.com/idiap/coqui-ai-TTS): 17 languages, <200ms streaming latency, zero-shot voice cloning. Company closed Dec 2023; IDIAP maintains the fork.
   - docs: https://huggingface.co/coqui/XTTS-v2
+- [ChatTTS](https://github.com/2noise/ChatTTS): Conversational TTS with multi-speaker synthesis, prosody control, and emotion tags (laughter, pauses). pip install. 39k stars. Code AGPL-3.0; model weights CC-BY-NC-4.0 (non-commercial).
+  - docs: https://huggingface.co/2Noise/ChatTTS
 - [CosyVoice (FunAudioLLM)](https://github.com/FunAudioLLM/CosyVoice): Alibaba/FunAudioLLM multilingual TTS. CosyVoice2 streaming at 150ms latency; CosyVoice3 (Dec 2025) adds RL-tuned voice quality. 9+ languages, zero-shot cloning.
   - docs: https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B
 - [Dia (Nari Labs)](https://github.com/nari-labs/dia): 1.6B-param dialogue TTS. Generates multi-speaker audio with nonverbal cues (laughter, sighs) in one pass. Voice cloning via audio prompt. Apache-2.0.
@@ -116,6 +120,8 @@
   - docs: https://heartmula.github.io/
 - [InspireMusic (FunAudioLLM)](https://github.com/FunAudioLLM/InspireMusic): Alibaba toolkit for text-to-music, music continuation, and audio super-resolution. Autoregressive transformer + flow-matching model generates 48kHz music from text and audio prompts.
   - docs: https://funaudiollm.github.io/inspiremusic/
+- [Ming-omni-tts (inclusionAI)](https://github.com/inclusionAI/Ming-omni-tts): Unified autoregressive model generating speech, environmental sounds, and music in a single channel. 0.5B and 16.8B-A3B variants. Fine-grained vocal control (emotion, pitch, dialect), zero-shot voice design from text description. MIT license, released March 2026.
+  - docs: https://huggingface.co/inclusionAI/Ming-omni-tts-0.5B
 - [SongGeneration (Tencent / LeVo)](https://github.com/tencent-ailab/SongGeneration): 4B-param open-source song generation model producing vocals + accompaniment from lyrics and style prompts. LeVo-v2-large released March 2026. Non-commercial license.
   - docs: https://huggingface.co/tencent/LeVo-v2-large
 - [SoulX-Singer](https://github.com/Soul-AILab/SoulX-Singer): Zero-shot singing voice synthesis supporting Mandarin, English, and Cantonese. Trained on 42k hours of vocal data. Supports melody-conditioned (F0) and score-conditioned (MIDI) control. Companion SVC model released March 2026.

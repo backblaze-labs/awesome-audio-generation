@@ -1033,3 +1033,44 @@
     - {language: "Python (pip install realtimetts[all])"}
   b2_integration: ""
   last_verified: 2026-05-04
+
+# ---------------- Text-to-Speech APIs (expansion 2026-06-01) ----------------
+
+- name: Gemini TTS (Google)
+  url: https://ai.google.dev/gemini-api/docs/speech-generation
+  docs_url: https://ai.google.dev/gemini-api/docs/speech-generation
+  description: Gemini 2.5 Flash/Pro TTS and Gemini 3.1 Flash TTS via the Gemini API. 30 voices, 100+ languages, natural language style control, audio tags ([whispers], [laughs]), multi-speaker (2 voices). Separate from Google Cloud TTS.
+  category: text-to-speech-apis
+  sdks:
+    - {language: Python (google-genai)}
+    - {language: JavaScript (@google/genai)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+# ---------------- Open Source TTS Models (expansion 2026-06-01) ----------------
+
+- name: ChatTTS
+  url: https://github.com/2noise/ChatTTS
+  docs_url: https://huggingface.co/2Noise/ChatTTS
+  description: Conversational TTS with multi-speaker synthesis, prosody control, and emotion tags (laughter, pauses). pip install. 39k stars. Code AGPL-3.0; model weights CC-BY-NC-4.0 (non-commercial).
+  category: open-source-tts-models
+  github: 2noise/ChatTTS
+  license: AGPL-3.0
+  sdks:
+    - {language: Python (pip install ChatTTS)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+# ---------------- Open Source Music and Audio Models (expansion 2026-06-01) ----------------
+
+- name: Ming-omni-tts (inclusionAI)
+  url: https://github.com/inclusionAI/Ming-omni-tts
+  docs_url: https://huggingface.co/inclusionAI/Ming-omni-tts-0.5B
+  description: Unified autoregressive model generating speech, environmental sounds, and music in a single channel. 0.5B and 16.8B-A3B variants. Fine-grained vocal control (emotion, pitch, dialect), zero-shot voice design from text description. MIT license, released March 2026.
+  category: open-source-music-and-audio-models
+  github: inclusionAI/Ming-omni-tts
+  license: MIT
+  sdks:
+    - {language: Python (pip install -r requirements.txt)}
+  b2_integration: ""
+  last_verified: 2026-06-01

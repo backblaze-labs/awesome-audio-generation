@@ -132,6 +132,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Frameworks for building real-time STT → LLM → TTS voice agents.
 
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** – Trust scoring MCP server for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Free tools: `resolve_agent`, `score_agent`, `preflight_check`. MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 - **[Pipecat (Daily)](https://github.com/pipecat-ai/pipecat)** – Open-source Python framework for STT → LLM → TTS voice agent pipelines. Modular adapters for ElevenLabs, Cartesia, Deepgram, OpenAI, and more. [Docs](https://docs.pipecat.ai) | SDK: Python (pip install pipecat-ai)
 - **[LiveKit Agents](https://github.com/livekit/agents)** – Open-source framework for real-time voice AI agents with semantic turn detection. [Docs](https://docs.livekit.io) | SDK: JavaScript, Python, Swift, Android, Flutter, Go, Rust
 - **[Vapi](https://vapi.ai)** – Managed voice AI agent platform. Abstracts STT/LLM/TTS orchestration. Integrates ElevenLabs, Deepgram, OpenAI, Anthropic. [Docs](https://docs.vapi.ai) | SDK: JavaScript, Python, Java, Swift

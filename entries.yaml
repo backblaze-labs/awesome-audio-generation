@@ -1074,3 +1074,15 @@
     - {language: Python (pip install -r requirements.txt)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+# ---------------- Text-to-Speech APIs (expansion 2026-09-17) ----------------
+
+- name: Gradium
+  url: https://gradium.ai
+  docs_url: https://docs.gradium.ai
+  description: Real-time voice AI API with streaming text-to-speech and speech-to-text, semantic turn detection, live speech-to-speech translation, instant voice cloning, and voice design from a text prompt; English, French, German, Spanish, Portuguese.
+  category: text-to-speech-apis
+  sdks:
+    - {language: Python, url: https://github.com/gradium-ai/gradium-py}
+  b2_integration: ""
+  last_verified: 2026-09-17

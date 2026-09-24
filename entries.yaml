@@ -1074,3 +1074,16 @@
     - {language: Python (pip install -r requirements.txt)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+# ---------------- Text-to-Speech APIs (expansion 2026-09-25) ----------------
+
+- name: Speechify
+  url: https://speechify.ai
+  docs_url: https://docs.speechify.ai
+  description: Streaming TTS API built on Speechify's own SIMBA models. SIMBA 3.2 for English, SIMBA 3.0 for 6 languages. SSML with emotion control, word-level timestamps, and voice cloning on paid plans. Free tier of 500K characters a month.
+  category: text-to-speech-apis
+  sdks:
+    - {language: Python, url: https://github.com/speechify-ai/sdk-python}
+    - {language: TypeScript, url: https://github.com/speechify-ai/sdk-typescript}
+  b2_integration: ""
+  last_verified: 2026-09-25

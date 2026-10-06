@@ -167,7 +167,12 @@
   last_verified: 2026-03-01
 
 # ---------------- Music and Sound Generation APIs ----------------
-
+- name: usesuno
+  url: https://usesuno.online
+  category: music-and-sound-generation-apis
+  description: Free web-based toolkit for Suno AI creators featuring a prompt builder, lyric tag normalizer, and audio/lyrics downloader.
+  type: tool
+  
 - name: Stability AI (Stable Audio)
   url: https://stability.ai/stable-audio
   description: Commercial Stable Audio 2.5 model for music and sound generation. Also available on Replicate and fal.ai.

@@ -1086,3 +1086,16 @@
     - {language: Python, url: https://github.com/gradium-ai/gradium-py}
   b2_integration: ""
   last_verified: 2026-09-17
+
+# ---------------- Open Source TTS Models (SuperClonica) ----------------
+
+- name: SuperClonica (Supertonic 3 engine)
+  url: https://superclonica.com/en/superclonica
+  docs_url: https://huggingface.co/Superclonica/superclonica
+  description: Apache-2.0 offline inference engine for the open-weight Supertonic 3 model (31 languages). Uses the same voice files and is measured 1.6–1.7x faster than the stock runtime on CPU and NVIDIA GPU, with trimmed silence and background noise. HTTP API in Docker.
+  category: open-source-tts-models
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install superclonica-cpu)}
+  b2_integration: ""
+  last_verified: 2026-10-24

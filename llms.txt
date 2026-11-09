@@ -18,6 +18,8 @@
   - docs: https://ai.google.dev/gemini-api/docs/speech-generation
 - [Google Cloud TTS](https://cloud.google.com/text-to-speech): 380+ voices across 75+ languages. Chirp 3 HD voices available.
   - docs: https://docs.cloud.google.com/text-to-speech/docs
+- [Gradium](https://gradium.ai): Real-time voice AI API with streaming text-to-speech and speech-to-text, semantic turn detection, live speech-to-speech translation, instant voice cloning, and voice design from a text prompt; English, French, German, Spanish, Portuguese.
+  - docs: https://docs.gradium.ai
 - [Hume AI (Octave)](https://www.hume.ai): LLM-trained TTS that understands context and emotion. Octave 2 supports 11+ languages. Also includes EVI for voice agents.
   - docs: https://dev.hume.ai/docs/text-to-speech-tts/overview
 - [Inworld TTS](https://inworld.ai/tts-api): Commercial TTS API ranked
@@ -36,6 +38,8 @@
   - docs: https://docs.play.ht/reference/api-getting-started
 - [Resemble AI](https://www.resemble.ai): Custom voice cloning specialist. Also publishes the open-source Chatterbox TTS model.
   - docs: https://docs.resemble.ai
+- [Speechify](https://speechify.ai): Streaming TTS API built on Speechify's own SIMBA models. SIMBA 3.5 supports 48 languages. SSML with emotion control, word-level timestamps, and voice cloning on paid plans. Free tier available.
+  - docs: https://docs.speechify.ai
 - [WellSaid Labs](https://www.wellsaid.io): Enterprise-focused TTS. Major API upgrade June 2025 with 50% cost reduction.
   - docs: https://docs.wellsaidlabs.com/docs/getting-started
 - [xAI Grok TTS](https://x.ai/api/voice): Commercial TTS API launched April 2026. 5 expressive voices, 20 languages, inline speech tags (laughter, whispers), WebSocket streaming, and voice cloning via custom-voices endpoint. $4.20/1M chars.

@@ -166,6 +166,20 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Brainiall Text-to-Speech API
+  url: https://www.brainiall.com/en/apis/text-to-speech
+  docs_url: https://github.com/fasuizu-br/brainiall-tts-mcp/blob/main/openapi/brainiall-tts.openapi.yaml
+  description: Hosted neural TTS API with 54 voices across nine languages, including native Brazilian Portuguese. Pay as you go at $0.008 per 1K characters; WAV output and a public OpenAPI 3.1 spec.
+  category: text-to-speech-apis
+  github: fasuizu-br/brainiall-tts-mcp
+  license: MIT
+  tags:
+    - text-to-speech
+    - portuguese
+    - openapi
+  b2_integration: ""
+  last_verified: 2026-07-28
+
 # ---------------- Music and Sound Generation APIs ----------------
 
 - name: Stability AI (Stable Audio)

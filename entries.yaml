@@ -200,6 +200,21 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: RunAPI Suno SDK
+  url: https://github.com/runapi-ai/suno-sdk
+  docs_url: https://runapi.ai/models/suno
+  description: JavaScript, Python, Ruby, Go, and Java clients for Suno music generation, covers, extension, stems, and custom voice workflows on RunAPI.
+  category: music-and-sound-generation-apis
+  github: runapi-ai/suno-sdk
+  sdks:
+    - {language: JavaScript (npm install @runapi.ai/suno)}
+    - {language: Python (pip install runapi-suno)}
+    - {language: Ruby (gem install runapi-suno)}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-06-25
+
 - name: Udio
   url: https://www.udio.com
   description: Music generation with v1.5 and v1.5 Allegro models. Developer portal available; limited public docs.

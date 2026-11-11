@@ -6,6 +6,8 @@
 
 - [Amazon Polly](https://aws.amazon.com/polly): Neural TTS with SSML support, accessible through any AWS SDK.
   - docs: https://docs.aws.amazon.com/polly/latest/dg/
+- [Brainiall Text-to-Speech API](https://www.brainiall.com/en/apis/text-to-speech): Hosted neural TTS API with 54 voices across nine languages, including native Brazilian Portuguese. WAV output, public OpenAPI 3.1 spec, and a remote MCP server.
+  - docs: https://github.com/fasuizu-br/brainiall-tts-mcp/blob/main/openapi/brainiall-tts.openapi.yaml
 - [Cartesia](https://cartesia.ai): Ultra-low latency Sonic model family with WebSocket multiplexing.
   - docs: https://docs.cartesia.ai
 - [Deepgram](https://deepgram.com): Aura TTS model with WebSocket streaming. Also offers a Voice Agent API bundling STT + TTS + LLM orchestration.

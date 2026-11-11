@@ -35,7 +35,6 @@ Maintained by [Backblaze](https://www.backblaze.com).
 > Commercial TTS APIs with hosted inference and developer SDKs.
 
 - **[Amazon Polly](https://aws.amazon.com/polly)** – Neural TTS with SSML support, accessible through any AWS SDK. [Docs](https://docs.aws.amazon.com/polly/latest/dg/) | SDK: Python (boto3), Node, Java, .NET, Go, Ruby, PHP
-- **[Brainiall Text-to-Speech API](https://www.brainiall.com/en/apis/text-to-speech)** – Hosted neural TTS API with 54 voices across nine languages, including native Brazilian Portuguese. WAV output, public OpenAPI 3.1 spec, and a remote MCP server. [Docs](https://github.com/fasuizu-br/brainiall-tts-mcp/blob/main/openapi/brainiall-tts.openapi.yaml)
 - **[Cartesia](https://cartesia.ai)** – Ultra-low latency Sonic model family with WebSocket multiplexing. [Docs](https://docs.cartesia.ai) | SDK: [Python](https://github.com/cartesia-ai/cartesia-python)
 - **[Deepgram](https://deepgram.com)** – Aura TTS model with WebSocket streaming. Also offers a Voice Agent API bundling STT + TTS + LLM orchestration. [Docs](https://developers.deepgram.com/docs/text-to-speech) | SDK: Python, JavaScript, .NET, Go
 - **[ElevenLabs](https://elevenlabs.io)** – Industry-leading TTS with voice cloning, multilingual support, and streaming. Flagship eleven_v3 model. [Docs](https://elevenlabs.io/docs/overview/intro) | SDK: [Python](https://github.com/elevenlabs/elevenlabs-python), JavaScript, Flutter, Swift, Kotlin

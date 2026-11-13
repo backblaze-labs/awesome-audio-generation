@@ -1097,3 +1097,16 @@
     - {language: TypeScript, url: https://github.com/speechify-ai/sdk-typescript}
   b2_integration: ""
   last_verified: 2026-10-22
+
+- name: CloudGPU
+  url: https://cloudgpu.app
+  docs_url: https://cloudgpu.app/docs
+  description: GPU rental marketplace with SSH, Jupyter and a REST API, plus an MCP server for creating instances and Jobs, and step-by-step guides for running open audio models such as Bark, XTTS-v2, Orpheus TTS and Stable Audio Open.
+  category: gpu-cloud-providers
+  github: cloudgpu-app/cloudgpu-mcp
+  sdks:
+    - {language: Node (MCP), url: https://www.npmjs.com/package/cloudgpu-mcp}
+  license: MIT
+  tags: [gpu, mcp]
+  b2_integration: ""
+  last_verified: 2026-11-13

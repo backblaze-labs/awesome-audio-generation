@@ -14,6 +14,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - [Awesome Multimodal Data](https://github.com/backblaze-labs/awesome-multimodal-data)
 - [Awesome Agent Infrastructure](https://github.com/backblaze-labs/awesome-agent-infrastructure)
 - [Awesome Physical AI](https://github.com/backblaze-labs/awesome-physical-ai)
+- [No Stairs Please](https://nostairsplease.com/) - Directory and [MCP server](https://nostairsplease.com/mcp) for small live-music stages in all 50 US states and booking contacts
 
 ## Contents
 

@@ -166,6 +166,14 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Miragea
+  url: https://miragea.ai
+  docs_url: https://miragea.ai/v1/guide
+  description: Hosted TTS and voice-cloning API that creates private voices from a 3-60 second reference clip, generates speech in 10 languages, and transcribes audio or video into SRT, TXT, or JSON subtitles. OpenAPI schema at https://miragea.ai/v1/schema.
+  category: text-to-speech-apis
+  b2_integration: ""
+  last_verified: 2026-11-18
+
 # ---------------- Music and Sound Generation APIs ----------------
 
 - name: Stability AI (Stable Audio)

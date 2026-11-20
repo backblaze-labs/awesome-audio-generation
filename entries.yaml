@@ -54,7 +54,7 @@
   description: Neural TTS with SSML support, accessible through any AWS SDK.
   category: text-to-speech-apis
   sdks:
-    - {language: Python (boto3)}
+    - {language: Python}
     - {language: Node}
     - {language: Java}
     - {language: .NET}
@@ -217,7 +217,7 @@
   github: resemble-ai/chatterbox
   license: MIT
   sdks:
-    - {language: Python (pip install chatterbox-tts)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -229,7 +229,7 @@
   github: hexgrad/kokoro
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install kokoro)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -240,7 +240,7 @@
   category: open-source-tts-models
   github: idiap/coqui-ai-TTS
   sdks:
-    - {language: Python (pip install coqui-tts)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -298,7 +298,7 @@
   github: myshell-ai/MeloTTS
   license: MIT
   sdks:
-    - {language: Python (pip install melotts)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -318,7 +318,7 @@
   github: neonbjb/tortoise-tts
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install tortoise-tts)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -332,7 +332,7 @@
   github: facebookresearch/audiocraft
   license: MIT
   sdks:
-    - {language: Python (pip install audiocraft)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -381,8 +381,8 @@
   description: Universal audio/video processing CLI. Backend for PyDub and many TTS pipelines.
   category: audio-processing
   sdks:
-    - {language: Python (ffmpeg-python), url: https://github.com/kkroening/ffmpeg-python}
-    - {language: Node (fluent-ffmpeg)}
+    - {language: Python, url: https://github.com/kkroening/ffmpeg-python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -392,7 +392,7 @@
   category: audio-processing
   github: jiaaro/pydub
   sdks:
-    - {language: Python (pip install pydub)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -403,7 +403,7 @@
   category: audio-processing
   github: librosa/librosa
   sdks:
-    - {language: Python (pip install librosa)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -413,7 +413,7 @@
   category: audio-processing
   github: spotify/pedalboard
   sdks:
-    - {language: Python (pip install pedalboard)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -424,7 +424,7 @@
   category: audio-processing
   github: pytorch/audio
   sdks:
-    - {language: Python (pip install torchaudio)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -434,7 +434,7 @@
   category: audio-processing
   github: bastibe/python-soundfile
   sdks:
-    - {language: Python (pip install soundfile)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -448,7 +448,7 @@
   github: pipecat-ai/pipecat
   license: BSD-2-Clause
   sdks:
-    - {language: Python (pip install pipecat-ai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -662,7 +662,7 @@
   github: QwenLM/Qwen3-TTS
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install qwen-tts)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -686,7 +686,7 @@
   github: modelscope/ClearerVoice-Studio
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install clearvoice)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -700,7 +700,7 @@
   github: FunAudioLLM/CosyVoice
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install -r requirements.txt)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -731,7 +731,7 @@
   github: ace-step/ACE-Step-1.5
   license: MIT
   sdks:
-    - {language: Python (pip install acestep)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -754,7 +754,7 @@
   github: nari-labs/dia
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install git+https://github.com/nari-labs/dia.git)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -766,7 +766,7 @@
   github: OpenBMB/VoxCPM
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install voxcpm)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -780,7 +780,7 @@
   github: HeartMuLa/heartlib
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install -e .)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -923,7 +923,7 @@
   github: FunAudioLLM/ThinkSound
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install thinksound)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -969,7 +969,7 @@
   github: canopyai/Orpheus-TTS
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install orpheus-speech)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -981,7 +981,7 @@
   github: edwko/OuteTTS
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install outetts)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -993,7 +993,7 @@
   github: HumeAI/tada
   license: MIT
   sdks:
-    - {language: Python (pip install hume-tada)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1005,7 +1005,7 @@
   github: OpenMOSS/MOSS-TTS
   license: Apache-2.0
   sdks:
-    - {language: "Python (pip install -e '.[torch-runtime]')"}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1030,7 +1030,7 @@
   github: KoljaB/RealtimeTTS
   license: MIT
   sdks:
-    - {language: "Python (pip install realtimetts[all])"}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1042,8 +1042,8 @@
   description: Gemini 2.5 Flash/Pro TTS and Gemini 3.1 Flash TTS via the Gemini API. 30 voices, 100+ languages, natural language style control, audio tags ([whispers], [laughs]), multi-speaker (2 voices). Separate from Google Cloud TTS.
   category: text-to-speech-apis
   sdks:
-    - {language: Python (google-genai)}
-    - {language: JavaScript (@google/genai)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -1057,7 +1057,7 @@
   github: 2noise/ChatTTS
   license: AGPL-3.0
   sdks:
-    - {language: Python (pip install ChatTTS)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -1071,7 +1071,7 @@
   github: inclusionAI/Ming-omni-tts
   license: MIT
   sdks:
-    - {language: Python (pip install -r requirements.txt)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 

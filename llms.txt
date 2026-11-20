@@ -175,6 +175,8 @@
 
 ## GPU Cloud Providers
 
+- [CloudGPU](https://cloudgpu.app): GPU rental marketplace with a REST API and MCP server, plus guides for running open audio models such as Bark, XTTS-v2, Orpheus TTS and Stable Audio Open.
+  - docs: https://cloudgpu.app/docs
 - [fal.ai](https://fal.ai): Serverless inference for generative media.
   - docs: https://docs.fal.ai
 - [Modal](https://modal.com): Serverless Python-first GPU platform. Sub-second cold starts.
